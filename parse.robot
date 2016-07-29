@@ -8,11 +8,3 @@ TestParse
     Should Be Equal As Strings    ${res.status_code}    200
     Log    ${res.content}
 
-TestDict
-    ${dict}    Create Dictionary    a=1    b=2
-    Set To Dictionary    ${dict}    a=3    c=4
-    Log Dictionary    ${dict}
-    Remove From Dictionary    ${dict}    a
-    Log    ${dict}
-    Keep In Dictionary    ${dict}    b
-    Log    ${dict}
