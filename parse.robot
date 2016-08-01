@@ -1,5 +1,5 @@
 *** Settings ***
-Library           ../../../Python27/Lib/site-packages/RequestsLibrary/RequestsKeywords.py
+Library           /usr/local/lib/python2.7/site-packages/RequestsLibrary/RequestsKeywords.py
 
 *** Test Cases ***
 TestParse
